@@ -1,2 +1,3 @@
-# Estudos_Python
- Meus exercícios feitos em Python
+# Estudos da Linguagem Python
+
+Meus exercícios feitos em Python
