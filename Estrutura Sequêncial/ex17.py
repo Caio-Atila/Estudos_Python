@@ -10,11 +10,12 @@ tinta_necessaria = area_parede / 6
 
 balde_grande = tinta_necessaria / 18
 balde_pequeno = tinta_necessaria / 3.6
+mistura_baldes = tinta_necessaria / 24.86
 
 print('=' * 38)
 print(f'''Caso compre apenas latas de 18 litros, serão necessários {balde_grande:.1f} balde(s)
 Valor total: R${balde_grande * 80:.2f}''')
 print(f'''Caso compre apenas latas de 3.6 litros, serão necessários: {balde_pequeno:.1f} balde(s)
 Valor total: R${balde_pequeno * 25:.2f}''')
-print('''Caso opte por misturar latas e galões, serão necessários: {} balde(s) grande(s) e {} balde(s) pequeno(s)
-Valor total: R${:.2f}''')
+print(f'''Caso opte por misturar latas e galões, você receberá: {mistura_baldes:.0f} balde(s)
+Valor total: R${(tinta_necessaria / 22.6) * 105:.2f}''')
