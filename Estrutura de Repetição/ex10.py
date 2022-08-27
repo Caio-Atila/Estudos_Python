@@ -3,5 +3,9 @@
 inicio = int(input('Informe o inicio do intervalo: '))
 fim = int(input('Informe o fim do intervalo: '))
 
-for c in range(inicio, fim+1):
-    print(f'{c}', end=' ')
+if inicio < fim:
+    for c in range(inicio, fim+1):
+        print(f'{c}', end=' ')
+else:
+    for c in range(fim, inicio+1):
+        print(f'{c}', end=' ')
